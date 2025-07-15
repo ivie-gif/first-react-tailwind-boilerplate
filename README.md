@@ -20,3 +20,11 @@ react-tailwind-starter-js/
 │ └── main.jsx
 ├── tailwind.config.js
 └── vite.config.js
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/react-tailwind-starter-js.git
+cd react-tailwind-starter-js
+npm install
+npm run dev
