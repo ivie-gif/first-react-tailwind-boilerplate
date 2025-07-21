@@ -15,9 +15,13 @@ A lightweight React boilerplate with Tailwind CSS — built for speed, simplicit
 - ├── public/
 - │ └── index.html
 - ├── src/
-- │ ├── App.jsx
-- │ ├── index.css
-- │ └── main.jsx
+- ├── assets/               # Images and static files
+- ├── components/   # Reusable UI (e.g. Header, Footer)
+- ├── layouts/             # Page layouts (e.g. DefaultLayout)
+- ├── pages/               # Pages (Home, About, etc.)
+- ├── App.jsx              # App entry point
+- ├── main.jsx             # Vite entry
+- └── index.css            # Tailwind styles
 - ├── tailwind.config.js
 - └── vite.config.js
 

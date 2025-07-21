@@ -1,11 +1,13 @@
+import Layout from "./components/Layout/layout"; //import the component as it appears o your file structure
+import Home from "./pages/Home/home"; //import the component as it appears o your file structure
+import About from "./pages/About/about"; //import the component as it appears o your file structure
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold text-blue-600">
-        🚀 react-tailwind-starter-js
-      </h1>
-    </div>
+    <Layout>
+      <Home />
+      <About />
+    </Layout>
   );
 }
 
